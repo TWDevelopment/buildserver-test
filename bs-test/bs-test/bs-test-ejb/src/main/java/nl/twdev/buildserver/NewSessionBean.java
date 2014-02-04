@@ -19,6 +19,7 @@ public class NewSessionBean {
         
         System.out.println("test123");
         System.out.println("test123");
+        System.out.println("test123");
     }
 
     // Add business logic below. (Right-click in editor and choose
