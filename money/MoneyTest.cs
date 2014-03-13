@@ -115,7 +115,7 @@ namespace NUnit.Samples.Money
 		{
 			Assert.IsTrue(fMB1.Subtract(fMB1).IsZero);
 
-			Money[] bag = { new Money(0, "CHF"), new Money(0, "USD") };
+			Money[] bag = { new Money(1, "CHF"), new Money(0, "USD") };
 			Assert.IsTrue(new MoneyBag(bag).IsZero);
 		}
 
